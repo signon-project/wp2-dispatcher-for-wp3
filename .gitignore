@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+pipeline-venv
+.python-version
+
+# Visual Studio Code # 
+.vscode/
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history\
+
+# minio
+minioDownload/
+
+# pycache for ExceptionHandler
+src/ExceptionHandler/__pycache__/
